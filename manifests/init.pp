@@ -13,5 +13,5 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 class ruby {
-    package { [ruby, ruby-devel]: ensure => installed }
+    package { [ruby, ruby-dev]: ensure => installed }
 }
